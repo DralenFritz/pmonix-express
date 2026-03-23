@@ -34,78 +34,82 @@
   <link rel="stylesheet" href="../style.css">
 </head>
 
-<body class="d-flex flex-column justify-content-between hcaptcha-response-page">
-  <header>
+<body>
 
-    <nav class="navbar navbar-expand-md fixed-top pb-0" aria-label="Light offcanvas navbar">
+  <div class="d-flex flex-column justify-content-between hcaptcha-response-page">
+    <header>
 
-      <div class="container-fluid nav-container align-items-center">
-        <a class="navbar-brand d-sm-none" href="/">
-          <img src="../pmonix-logo-without-text.png" alt="pmonix logo" width="45px">
-        </a>
-        <a class="navbar-brand d-none d-sm-block ms-2 pb-0" href="/">
-          <img src="../pmonix-logo.png" alt="pmonix logo with text" class="pb-4" width="100px">
-        </a>
+      <nav class="navbar navbar-expand-md fixed-top pb-0" aria-label="Light offcanvas navbar">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight"
-          aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container-fluid nav-container align-items-center">
+          <a class="navbar-brand d-sm-none" href="/">
+            <img src="../pmonix-logo-without-text.png" alt="pmonix logo" width="45px">
+          </a>
+          <a class="navbar-brand d-none d-sm-block ms-2 pb-0" href="/">
+            <img src="../pmonix-logo.png" alt="pmonix logo with text" class="pb-4" width="100px">
+          </a>
 
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight"
-          aria-labelledby="offcanvasNavbarLightLabel">
-          <div class="offcanvas-header border-bottom">
-            <div class="offcanvas-title d-flex align-items-center" id="offcanvasNavbarLightLabel">
-              <img src="../pmonix-logo-without-text.png" alt="pmonix logo" width="45px">
-              <h5 style="margin: 0;">Pmonix</h5>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight"
+            aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight"
+            aria-labelledby="offcanvasNavbarLightLabel">
+            <div class="offcanvas-header border-bottom">
+              <div class="offcanvas-title d-flex align-items-center" id="offcanvasNavbarLightLabel">
+                <img src="../pmonix-logo-without-text.png" alt="pmonix logo" width="45px">
+                <h5 style="margin: 0;">Pmonix</h5>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
 
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item pb-md-4">
-                <a class="nav-link px-0" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-0" href="/about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-0 active" aria-current="page" href="/enquire-product">Enquire</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-0" target="_blank" href="https://www.instagram.com/pmonix_hairs/">Instagram</a>
-              </li>
-              <li>
-                <div class="google-translate" id="google_translate_element"></div>
-              </li>
-            </ul>
-          </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item pb-md-4">
+                  <a class="nav-link px-0" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-0" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-0 active" aria-current="page" href="/enquire-product">Enquire</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-0" target="_blank" href="https://www.instagram.com/pmonix_hairs/">Instagram</a>
+                </li>
+                <li>
+                  <div class="google-translate" id="google_translate_element"></div>
+                </li>
+              </ul>
+            </div>
 
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-  </header>
+    </header>
 
-  <main class="main-failure">
-    <h2>Error: There was an issue with the Hcaptcha verification</h2>
-    <a href="/enquire-product"><h3>Try again</h3></a>
-  </main>
+    <main class="main-failure">
+      <h2>Error: There was an issue with the Hcaptcha verification</h2>
+      <a href="/enquire-product"><h3>Try again</h3></a>
+    </main>
 
-  <div class="container footer-container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-4 mb-0 text-body-secondary">© 2025 Pmonix</p>
-      <a href="/"
-        class="col-md-4 d-flex align-items-center justify-content-center mb-0 me-md-auto link-body-emphasis text-decoration-none"
-        aria-label="Pmonix Logo">
-        <img src="../pmonix-logo-without-text-circle.png" alt="pmonix logo" width="32">
-      </a>
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
-        <li class="nav-item"><a href="/about" class="nav-link px-2 text-body-secondary">About</a></li>
-        <li class="nav-item"><a href="/enquire-product" class="nav-link px-2 text-body-secondary">Enquire</a></li>
-      </ul>
-    </footer>
+    <div class="container footer-container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2025 Pmonix</p>
+        <a href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-0 me-md-auto link-body-emphasis text-decoration-none"
+          aria-label="Pmonix Logo">
+          <img src="../pmonix-logo-without-text-circle.png" alt="pmonix logo" width="32">
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="/about" class="nav-link px-2 text-body-secondary">About</a></li>
+          <li class="nav-item"><a href="/enquire-product" class="nav-link px-2 text-body-secondary">Enquire</a></li>
+        </ul>
+      </footer>
+    </div>
+
   </div>
 </body>
 
